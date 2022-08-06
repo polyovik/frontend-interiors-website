@@ -102,3 +102,59 @@
 
 }
 
+
+/* Info Section */
+
+.info .info-img img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.info .info-img {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.info .container-fluid {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.info .row {
+    margin-top: 100px;
+}
+
+
+.info .info-text {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+    
+    background-color: rgb(26, 73, 45);
+    color: rgb(221, 221, 185);
+}
+
+.info-text >div {
+    height: 100%;
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text img{
+    height: 30px;
+    margin-top: 10px;
+}
+
+.info-text h3 {
+    text-transform: uppercase;
+}
+
+.info-text p {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 2;
+}
