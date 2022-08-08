@@ -58,12 +58,13 @@
     text-align: center;
     border-radius: 0px;
     font-size: 20px;
+    letter-spacing: 2px;
 }
 
 .preview .btn:hover {
     color: black;
     background-color: #ffff;
-    transition: 0.7s;
+    transition: 0.1s;
 }
 
 
@@ -157,4 +158,73 @@
     margin-top: 10px;
     font-size: 20px;
     line-height: 2;
+}
+
+/* Collections Section */
+
+.collections .row {
+    margin-top: 150px;
+}
+
+
+.collections-text {
+    padding-left: 120px;
+    padding-right: 80px;
+}
+
+.collections-text h3 {
+    font-size: 25px;
+    font-weight: 450;
+}
+
+.collections p {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.collections .btn {
+    color: rgb(163, 143, 83);
+    border-color: rgb(163, 143, 83);
+    text-transform: uppercase;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 0px;
+    font-size: 15px;
+    letter-spacing: 2px
+}
+
+.collections .btn:hover {
+    color: white;
+    background-color: rgb(163, 143, 83);
+    transition: 0.1s;
+}
+
+
+.collections-img {
+    margin-top: 100px; 
+    height: 500px;
+}
+
+.collections-img img {
+    height: 100%;
+    max-width: 100%;
+    
+}
+
+.collections-img .rounded-circle {
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+
+#circle  {
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+    background: rgb(53,82,71);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
 }
