@@ -166,6 +166,20 @@
     margin-top: 150px;
 }
 
+.collections div, .collections a, .collections p, .collections h3 {
+    z-index: 1;
+}
+
+/* .collections .background-img {
+    margin-top: 80px;                 //to add in mobile version
+} */
+
+.collections .background-img img {
+    max-width: 100%;
+    max-height: 100%
+   
+}
+
 
 .collections-text {
     padding-left: 120px;
@@ -203,20 +217,17 @@
 
 .collections-img {
     margin-top: 100px; 
-    height: 500px;
+    height: 350px;
 }
 
 .collections-img img {
     height: 100%;
     max-width: 100%;
+    float: right;
+    max-height: 100%
     
 }
 
-.collections-img .rounded-circle {
-    height: 350px;
-    margin-top: 100px;
-    margin-left: 200px;
-}
 
 
 #circle  {
@@ -228,3 +239,18 @@
     -webkit-border-radius: 50px;
     border-radius: 50px;
 }
+
+.collections-plants-text {
+    margin-top: 250px;
+}
+
+.collections-plants-text h1 {
+    font-weight: 150;
+    font-size: 50px;
+    
+}
+
+
+
+
+
