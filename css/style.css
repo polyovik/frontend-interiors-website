@@ -1,274 +1,280 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h2 {
-    font-weight: 300;
-    font-size: 50px;  
+  font-weight: 300;
+  font-size: 50px;
 }
 
 h5 {
-    font-weight: 400;
-    text-transform: uppercase;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 p {
-    font-weight: 300;
-    margin-top: 30px;
-    font-size: 22px;
-    text-align: left;
-    line-height: 2;
+  font-weight: 300;
+  margin-top: 30px;
+  font-size: 22px;
+  text-align: left;
+  line-height: 2;
 }
 
 .preview img {
-
-    width: 1123px;
-    position: absolute; /*прикручує картинку */
-
+  width: 1123px;
+  position: absolute; /*прикручує картинку */
 }
 
 .preview .row {
-    
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-    height: 1000px;
-   
-
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  height: 1000px;
 }
 
-.preview .row>* {
-    
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-   
-
+.preview .row > * {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
 }
 
-.preview [class*="col-"] {
-    z-index: 2;   /* глибина, у кого більше z-index той того покриває, по дефолту у всіх 1, */
-    margin-top: 280px;
-    width: 550px;
-    height: 350px;
-    background-color: rgb(53,82,71);
+.preview [class*='col-'] {
+  z-index: 2; /* глибина, у кого більше z-index той того покриває, по дефолту у всіх 1, */
+  margin-top: 280px;
+  width: 550px;
+  height: 350px;
+  background-color: rgb(53, 82, 71);
 }
 
 .preview .info-preview {
-    padding: 30px 60px;
-    justify-content: center;
+  padding: 30px 60px;
+  justify-content: center;
 }
 
 .preview .text1 {
-    padding: 5px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: white;
+  padding: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
 }
 
 .preview .text2 {
-    font-weight: 100;
-    color: white;
-    font-size: 3.75rem;
-    margin: 20px 0 0;
+  font-weight: 100;
+  color: white;
+  font-size: 3.75rem;
+  margin: 20px 0 0;
 }
 
 .preview .btn {
-    color: #ffff;
-    border-color: #ffff;
-    text-transform: uppercase;
-    padding: 10px 39px;
-    margin: 30px auto 0 0;
-    text-align: center;
-    border-radius: 0px;
-    font-size: 20px;
-    letter-spacing: 2px;
+  color: #ffff;
+  border-color: #ffff;
+  text-transform: uppercase;
+  padding: 10px 39px;
+  margin: 30px auto 0 0;
+  text-align: center;
+  border-radius: 0px;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
 .preview .btn:hover {
-    color: black;
-    background-color: #ffff;
-    transition: 0.1s;
+  color: black;
+  background-color: #ffff;
+  transition: 0.1s;
 }
-
 
 /* Our Work Section */
 
 .our-work .container {
-    padding: 0 120px 0 120px;
+  padding: 0 120px 0 120px;
 }
 
 .our-work img {
-    max-width: 100%;
-    max-height: 100%
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .our-work-img {
-    padding-right: 30px;
+  padding-right: 30px;
 }
 
 .our-work-text {
-    padding-left: 60px;
-    padding-right: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
-
-
-
-
 
 /* Info Section */
 
 .info .info-img img {
-    max-width: 100%;
-    height: 100%;
+  max-width: 100%;
+  height: 100%;
 }
 
 .info .info-img {
-    padding-left: 0px;
-    padding-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .info .container-fluid {
-    margin-left: 0px;
-    margin-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .info .row {
-    margin-top: 100px;
+  margin-top: 100px;
 }
-
 
 .info .info-text {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 50px 50px 50px 50px;
-    text-align: center; 
-    background-color: rgb(26, 73, 45);
-    color: rgb(221, 221, 185);
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 50px 50px 50px 50px;
+  text-align: center;
+  background-color: rgb(26, 73, 45);
+  color: rgb(221, 221, 185);
 }
 
-.info-text >div {
-    height: 100%;
-    display: flex;
-    align-content: space-around;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.info-text > div {
+  height: 100%;
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.info-text img{
-    height: 30px;
-    margin-top: 10px;
+.info-text img {
+  height: 30px;
+  margin-top: 10px;
 }
 
 .info-text p {
-    margin-top: 10px;
-    font-size: 20px;
-    line-height: 2;
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 2;
 }
 
 /* Collections Section */
 
 .collections .row {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 
-.collections div, .collections a, .collections p, .collections h3 {
-    z-index: 1;
+.collections div,
+.collections a,
+.collections p,
+.collections h3 {
+  z-index: 1;
 }
 
 /* .collections .background-img {
     margin-top: 80px;                 //to add in mobile version
 } */
 
-.background-img {
-    margin-top: 20px;
+.rounded-img {
+  margin-top: 20px;
 }
 
-.background-img img {
-    max-width: 100%;
-    max-height: 100%; 
-    z-index: 2;
+.rounded-img img {
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 2;
 }
 
 .collections-text {
-    padding-left: 120px;
-    padding-right: 80px;
+  padding-left: 120px;
+  padding-right: 80px;
 }
 
 .collections-text h3 {
-    font-size: 25px;
-    font-weight: 400;
+  font-size: 25px;
+  font-weight: 400;
 }
 
 .collections .btn {
-    margin-top: 20px;
-    color: rgb(163, 143, 83);
-    border-color: rgb(163, 143, 83);
-    text-transform: uppercase;
-    padding-top: 10px;
-    text-align: center;
-    border-radius: 0px;
-    font-size: 20px;
-    letter-spacing: 2px
+  margin-top: 20px;
+  color: rgb(163, 143, 83);
+  border-color: rgb(163, 143, 83);
+  text-transform: uppercase;
+  padding-top: 10px;
+  text-align: center;
+  border-radius: 0px;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
 .collections .btn:hover {
-    color: white;
-    background-color: rgb(163, 143, 83);
-    transition: 0.1s;
+  color: white;
+  background-color: rgb(163, 143, 83);
+  transition: 0.1s;
 }
 
-
 .collections-img {
-    margin-top: 100px; 
-    height: 350px;
+  margin-top: 100px;
+  height: 350px;
 }
 
 .collections-img img {
-    height: 100%;
-    max-width: 100%;
-    float: right;
-    max-height: 100%
+  height: 100%;
+  max-width: 100%;
+  float: right;
+  max-height: 100%;
 }
 
-#green-circle  {
-    margin: 30px 0 0 100px;
-    width: 100px;
-    height: 100px;
-    background-color: #355247;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
+#green-circle {
+  margin: 30px 0 0 100px;
+  width: 100px;
+  height: 100px;
+  background-color: #355247;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
 }
 
 .brown-circle {
-    margin: 30px 0 0 80px;
-    width: 200px;
-    height: 200px;
-    background-color: #b19a53;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50%;
+  margin: 30px 0 0 80px;
+  width: 200px;
+  height: 200px;
+  background-color: #b19a53;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
 }
 
 .brown-circle-sm {
-    margin: 50px 0 0 350px;
-    width: 90px;
-    height: 90px;
-    background-color: #b19a53;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50%;
+  margin: 50px 0 0 350px;
+  width: 90px;
+  height: 90px;
+  background-color: #b19a53;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
 }
 
- .collections-plants-text {
-    margin: 130px 0 0 100px;
-} 
+.collections-plants-text {
+  margin: 130px 0 0 100px;
+}
 
+/* Categories Section */
 
+.categories .container-fluid {
+    margin-top: 50px;
+  background-image: url("https://images.unsplash.com/photo-1572048572872-2394404cf1f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+  background-repeat: no-repeat;
+  min-height: 800px;
+  background-size: cover;
+}
 
+.categories .row {
+    margin: 0 150px 0 150px;
+}
 
+.categories-text{
+    margin-top: 200px;
+}
 
-
-
+.categories-text h3 {
+    color: #ffff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+}
