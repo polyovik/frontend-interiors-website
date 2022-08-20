@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 50px;  
+}
+
+h5 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+p {
+    font-weight: 300;
+    margin-top: 30px;
+    font-size: 22px;
+    text-align: left;
+    line-height: 2;
+}
+
 .preview img {
 
     width: 1123px;
@@ -88,20 +112,8 @@
     padding-right: 60px;
 }
 
-.our-work-text h2 {
-    margin-top: 30px;
-    font-size: 60px;
-    font-weight: 200;
 
-}
 
-.our-work-text  p {
-    margin-top: 30px;
-    font-size: 20px;
-    text-align: left;
-    line-height: 2;
-
-}
 
 
 /* Info Section */
@@ -130,8 +142,7 @@
     margin-left: 0px;
     margin-right: 0px;
     padding: 50px 50px 50px 50px;
-    text-align: center;
-    
+    text-align: center; 
     background-color: rgb(26, 73, 45);
     color: rgb(221, 221, 185);
 }
@@ -148,10 +159,6 @@
 .info-text img{
     height: 30px;
     margin-top: 10px;
-}
-
-.info-text h3 {
-    text-transform: uppercase;
 }
 
 .info-text p {
@@ -174,12 +181,15 @@
     margin-top: 80px;                 //to add in mobile version
 } */
 
-.collections .background-img img {
-    max-width: 100%;
-    max-height: 100%
-   
+.background-img {
+    margin-top: 20px;
 }
 
+.background-img img {
+    max-width: 100%;
+    max-height: 100%; 
+    z-index: 2;
+}
 
 .collections-text {
     padding-left: 120px;
@@ -188,23 +198,18 @@
 
 .collections-text h3 {
     font-size: 25px;
-    font-weight: 450;
-}
-
-.collections p {
-    margin-top: 30px;
-    font-size: 20px;
-    line-height: 2;
+    font-weight: 400;
 }
 
 .collections .btn {
+    margin-top: 20px;
     color: rgb(163, 143, 83);
     border-color: rgb(163, 143, 83);
     text-transform: uppercase;
     padding-top: 10px;
     text-align: center;
     border-radius: 0px;
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 2px
 }
 
@@ -225,30 +230,43 @@
     max-width: 100%;
     float: right;
     max-height: 100%
-    
 }
 
-
-
-#circle  {
-    margin-left: 100px;
+#green-circle  {
+    margin: 30px 0 0 100px;
     width: 100px;
     height: 100px;
-    background: rgb(53,82,71);
+    background-color: #355247;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
 }
 
-.collections-plants-text {
-    margin-top: 250px;
+.brown-circle {
+    margin: 30px 0 0 80px;
+    width: 200px;
+    height: 200px;
+    background-color: #b19a53;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50%;
 }
 
-.collections-plants-text h1 {
-    font-weight: 150;
-    font-size: 50px;
-    
+.brown-circle-sm {
+    margin: 50px 0 0 350px;
+    width: 90px;
+    height: 90px;
+    background-color: #b19a53;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50%;
 }
+
+ .collections-plants-text {
+    margin: 130px 0 0 100px;
+} 
+
+
 
 
 
