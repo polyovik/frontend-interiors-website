@@ -16,7 +16,6 @@ h5 {
 
 p {
   font-weight: 300;
-  margin-top: 30px;
   font-size: 22px;
   text-align: left;
   line-height: 2;
@@ -103,6 +102,10 @@ p {
   padding-right: 60px;
 }
 
+.our-work-text p {
+  margin-top: 30px;
+}
+
 /* Info Section */
 
 .info .info-img img {
@@ -148,7 +151,8 @@ p {
 }
 
 .info-text p {
-  margin-top: 10px;
+  text-align: center;
+  margin-top: 30px;
   font-size: 20px;
   line-height: 2;
 }
@@ -183,6 +187,10 @@ p {
 .collections-text {
   padding-left: 120px;
   padding-right: 80px;
+}
+
+.collections-text p {
+  margin-top: 30px;
 }
 
 .collections-text h3 {
@@ -326,6 +334,10 @@ p {
   padding: 80px;
 }
 
+.living-space-text p {
+  margin-top: 30px;
+}
+
 .living-space .btn {
   color: #000000;
   border-color: #000000;
@@ -342,4 +354,37 @@ p {
   color: white;
   background-color: #355247;
   transition: 0.1s;
+}
+
+/* Catalog Section */
+
+.catalog .container-fluid {
+  
+  background-color: #333029;
+}
+
+.catalog-img {
+  max-height: 400px;
+}
+
+.catalog-img img {
+  max-height: 100%;
+}
+
+.catalog-text {
+  margin-top: 50px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.catalog-text h2 {
+  color: #ffffff;
+  font-size: 65px;
+}
+
+.catalog-text p {
+  color: #ffffff;
+  font-size: 20px;
 }
