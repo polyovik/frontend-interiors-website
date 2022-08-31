@@ -365,6 +365,7 @@ p {
 
 .catalog-img {
   max-height: 400px;
+  padding: 0 0 0 200px;
 }
 
 .catalog-img img {
@@ -387,4 +388,37 @@ p {
 .catalog-text p {
   color: #ffffff;
   font-size: 20px;
+}
+
+.catalog-content {
+  flex-direction: row;
+}
+
+.catalog-boxes {
+  flex-direction: column;
+}
+
+.catalog-box {
+  background-color: #ffffff;
+  max-height: 250px;
+  max-width: 300px;
+  padding: 40px;
+  justify-content: center;
+
+}
+
+.catalog-box p{
+  margin-bottom: 0;
+  font-size: 17px;
+}
+
+.catalog-box-img {
+  max-height: 250px;
+  max-width: 300px;
+  padding: 0;
+}
+
+.catalog-box-img img{
+  height: 100%;
+  width: 100%;
 }
