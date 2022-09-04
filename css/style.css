@@ -364,20 +364,12 @@ p {
 }
 
 .catalog-img {
-  max-height: 400px;
-  padding: 0 0 0 200px;
-}
-
-.catalog-img img {
-  max-height: 100%;
+  background-image: url('../img/info1.1.jpg');
+  background-size: cover;
 }
 
 .catalog-text {
   margin-top: 50px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .catalog-text h2 {
@@ -388,14 +380,6 @@ p {
 .catalog-text p {
   color: #ffffff;
   font-size: 20px;
-}
-
-.catalog-content {
-  flex-direction: row;
-}
-
-.catalog-boxes {
-  flex-direction: column;
 }
 
 .catalog-box {
