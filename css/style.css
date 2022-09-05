@@ -373,13 +373,20 @@ p {
 }
 
 .catalog-text h2 {
+  text-align: center;
   color: #ffffff;
   font-size: 65px;
 }
 
 .catalog-text p {
+  text-align: center;
   color: #ffffff;
   font-size: 20px;
+}
+
+.catalog-content {
+  margin-top: 30px;
+  padding-bottom: 100px;
 }
 
 .catalog-box {
@@ -405,4 +412,30 @@ p {
 .catalog-box-img img{
   height: 100%;
   width: 100%;
+}
+
+/* Footer Section */
+
+.footer {
+  background-color: #b19a53;
+}
+
+.footer-input {
+  margin-top: 30px;
+  padding-left: 100px;
+}
+
+.footer-input .bold-text {
+  font-weight: 600;
+}
+
+.footer-input p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.socials {
+  margin-top: 30px;
+  padding-right: 100px;
+  text-align: end;
 }
